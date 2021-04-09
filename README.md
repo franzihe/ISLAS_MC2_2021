@@ -1,30 +1,27 @@
-# Vertical profile in skewT plot
+# Necessary scripts to analyze data from the ISLAS and MC2 campaign at Andenes in March 2021
 
-- University Wyoming: http://weather.uwyo.edu/upperair/sounding.html
-- Met-Norway forecasts:
-... can be adjusted to the archived forecasts:
-  -  MEPS latest: https://thredds.met.no/thredds/catalog/mepslatest/catalog.html
-  -  MEPS archive: https://thredds.met.no/thredds/catalog/meps25epsarchive/catalog.html
+- Met-Norway observations:
+  -  Ceilometer: https://thredds.met.no/thredds/catalog/remotesensingceilometer/catalog.html
 
-  - AROME Arctic latest: https://thredds.met.no/thredds/catalog/aromearcticlatest/catalog.html
-  - AROME Arctic archive: https://thredds.met.no/thredds/catalog/aromearcticarchive/catalog.html
+  
 
-## HOW TO CITE
-Hellmuth, Franziska (2021), Download, plot vertical profiles, University of Oslo, Oslo, Norway. Contact: franziska.hellmuth@geo.uio.no
+## WHOM TO CONTACT
+Hellmuth, Franziska (2021), Data Analysis for ISLAS/MC2 campaign, University of Oslo, Oslo, Norway. Contact: franziska.hellmuth@geo.uio.no
 
 
 ## Necessary Python 3.7 packages
 - jupyter
 - jupyterlab
 - numpy
-- urllib3
+- datetime
 - bs4
-- pandas
 - xarray
-- metpy
+- pymeteo
 - matplotlib
 - seaborn
-- datetime
+
+
+
 
 
 
